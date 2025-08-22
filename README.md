@@ -7,6 +7,7 @@ Prerequisites
 Bun is recommended for running the included TS scripts directly. Alternatively compile TypeScript with tsc and run with Node. The `data` folder must contain `data/allowed_words.txt` and `data/possible_words.txt`. The precomputed matrix file is `data/pattern_allowed_answers.bin`.
 
 Quick start
+
 To generate the pattern matrix (optional, enables entropy/expected methods) run:
 
 ```sh
@@ -18,6 +19,7 @@ To start the server run:
 ```sh
 bun run serve
 ```
+
 Open `http://localhost:3000` in your browser.
 
 If you do not generate the matrix the server still works but only the fast method is available.
