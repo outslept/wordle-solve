@@ -9,6 +9,9 @@
       },
     },
   },
+  "overrides": {
+    "@vercel/node>typescript": "5.9.2",
+  },
   "packages": {
     "@types/node": ["@types/node@24.3.0", "", { "dependencies": { "undici-types": "~7.10.0" } }, "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow=="],
 
