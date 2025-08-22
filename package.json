@@ -1,16 +1,11 @@
 {
   "name": "wordle-solve",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "bun run server.ts",
+    "generate": "bun run scripts/generate-pattern-matrix.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0",
   "devDependencies": {
     "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
